@@ -10,6 +10,8 @@ npm install -g @deegeemee/tweetshot-cli
 
 ## Usage
 
+Set env var `CHROME_BIN` to the path of your Chrome executable, see https://github.com/deegeemee/tweetshot-cli/blob/main/.env.example
+
 ```bash
 Usage: tweetshot-cli [options] <tweetUrl> <outputFile>
 

@@ -3,7 +3,7 @@ import { program } from 'commander';
 import { tweetShot } from '@deegeemee/tweetshot';
 import ora from 'ora';
 
-program.name('tweetshot-cli').description('Screenshot tweets!').version('0.0.1');
+program.name('tweetshot-cli').description('Screenshot tweets!').version('0.0.2');
 
 program
   .arguments('<tweetUrl> <outputFile>')
